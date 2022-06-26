@@ -1,3 +1,4 @@
+/* base styles */
 * {
     box-sizing: border-box;
 }
@@ -9,3 +10,11 @@ img {
 html {
     font-size: 1.25em; /* 16px default, 20px */
 }
+
+
+/* main styles */
+
+
+/* media queries */
+
+    /* @media screen and min-width */
