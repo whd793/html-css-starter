@@ -4,6 +4,11 @@ every browser */
 /* for inline block, -4 margin right to 
 delete extra space caused by tabs/spaces in html  */
 
+/* 
+in the html, width=viewport-width zoom=1.0 to 
+fit the content within the viewport. Telling the browser
+that site is optimized for mobile and avoid zooming out to fit the content.  */
+
 /* base styles */
 * {
     box-sizing: border-box;
