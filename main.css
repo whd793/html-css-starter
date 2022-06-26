@@ -1,3 +1,7 @@
+/* use normalize css to reset basic layout setting. different basic layout
+every browser */
+
+
 /* base styles */
 * {
     box-sizing: border-box;
