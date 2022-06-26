@@ -1,6 +1,8 @@
 /* use normalize css to reset basic layout setting. different basic layout
 every browser */
 
+/* for inline block, -4 margin right to 
+delete extra space caused by tabs/spaces in html  */
 
 /* base styles */
 * {
