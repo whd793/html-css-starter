@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+html {
+    font-size: 1.25em; /* 16px default, 20px */
+}
