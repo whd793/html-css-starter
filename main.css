@@ -9,9 +9,29 @@ in the html, width=viewport-width zoom=1.0 to
 fit the content within the viewport. Telling the browser
 that site is optimized for mobile and avoid zooming out to fit the content.  */
 
+/* wrapper/container is used to center the page  */
+
 /* base styles */
-* {
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
     box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Helvetica, Helvetica Neue, Arial;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
 }
 
 img {
@@ -22,10 +42,32 @@ html {
     font-size: 1.25em; /* 16px default, 20px */
 }
 
+/* how to create a sticky footer */
+/* 
+    when there is no enough content,
+    there might be a gap in the footer.
+    To fill the gap,
+    set 100vh of the content above footer.
+    To get rid of sidebar,
+    use min-height: calc(100vh - whatever_the_footer_height) */
 
 /* main styles */
 
 
 /* media queries */
+    /* if we create breakpoint for devices,
+    then it's not sustainable because
+    new phone size coming out all the time */
 
-    /* @media screen and min-width */
+    /* Whenever one column layout starts to look bad, instead
+    of specific device width */
+
+    /* @media only screen and min-width */
+
+
+/* clearfix modern way */
+/* .clearfix::before, 
+.clearfix::after {
+    content: " ";
+    display: table;
+} */
